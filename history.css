@@ -58,6 +58,12 @@
     font-size: 20px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 
 .primary-navigation__links {
     display: flex;
@@ -80,6 +86,8 @@
 
 .footer {
     background: var(--bg-clr-blue);
+    margin-top: auto;
+
 }
 
 
@@ -113,8 +121,12 @@
 .header-caption {
     font-weight: var(--ft-weight-700);
     color: var(--fg-clr-white);
-
+    /*font-size: clamp(2rem, 2rem+2.2vw, 6rem);
+    white-space: nowrap; */
 }
+
+
+
 
 p {
     padding: var(--padding-tight);
