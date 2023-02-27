@@ -25,8 +25,8 @@
     --padding-tight: .4rem;
     --padding-normal: 6rem;
 
-    --ft-weight-400: 600;
-    --ft-weight-700: 560;
+    --ft-weight-400: 400;
+    --ft-weight-700: 700;
 }
 
 *,
@@ -78,7 +78,6 @@ body {
     width: 100%;
     background: var(--bg-clr-offwhite);
     bottom: 200px;
-    font-weight: bolder;
 
 
 
@@ -155,7 +154,7 @@ a {
 .nav-link:hover {
     text-decoration: underline;
     color: var(--fg-clr-accent);
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .main-content__history {
@@ -235,7 +234,6 @@ a {
     gap: 4rem;
     font-size: medium;
     list-style: none;
-    font-weight: bolder;
 
 }
 
@@ -244,7 +242,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
 }
 
 
@@ -259,7 +256,6 @@ a {
     text-align: center;
     padding-bottom: 5rem;
     font-size: 1.5rem;
-    font-weight: bolder;
     margin-top: 3rem;
     margin-bottom: 0;
 }
@@ -288,14 +284,7 @@ a {
 
 }
 
-.header-lagar {
-    text-align: center;
-    padding-bottom: 5rem;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin-top: 3rem;
-    margin-bottom: 0;
-}
+
 
 .main-content__lagar {
     width: 80%;
@@ -359,6 +348,8 @@ a {
     height: 20rem;
     justify-content: center;
     padding: 1rem;
+    font-size: 25px;
+
 }
 
 .legend {
@@ -371,9 +362,9 @@ a {
     width: 15rem;
     height: 2.5rem;
     justify-content: center;
-    align-content: center;
     margin: auto;
     display: flex;
+    padding: 10px;
 }
 
 
